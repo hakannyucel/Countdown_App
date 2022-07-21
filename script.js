@@ -1,4 +1,4 @@
-const newYearDate = new Date(2021,00,01);
+const newYearDate = new Date(new Date().getFullYear() + 1,00,01);
 
 const countdown = () => {
     const currentDate = new Date();
