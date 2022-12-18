@@ -14,6 +14,7 @@
     align-items: center;
 
     min-height: 100vh;
+    width: 100%;
 
     background-image: url("https://d3bzyjrsc4233l.cloudfront.net/news/Xmas.jpg");
     background-size: cover;
@@ -45,4 +46,20 @@
 
 .container .countdown-container .countdown .desc{
     font-size: 1.5rem;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+    .container .title{
+        font-size: 2.2rem;
+    }
+
+    .container .countdown-container{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    .container .countdown-container .countdown .timer{
+        font-size: 2.5rem;
+    }
 }
